@@ -108,6 +108,7 @@ font-size: 20px;
 .body3 { 
     display: flex;
    margin: auto;
+   justify-content: space-between;
 }
 
 #column img{ 
