@@ -1,0 +1,116 @@
+*{ margin: 5px;
+padding: 0;
+font-family: 'Poppins', sans-serif;}
+body {
+    background-color: #fff;
+    margin: auto;
+    width: 100%;
+    overflow: scroll;
+    overflow-x: hidden;}
+
+
+.header{ min-width: 100vh;
+width: 100%;
+background-image: url(./assets/image\ 1.png);
+}
+
+
+@media (min-width: 1240px){}
+header {
+        max-width: 1290px !important;
+        margin: auto !important;
+        height: 100%; }
+
+nav{ display: flex;
+padding: 2% 6%;
+justify-content: space-between;
+align-items: center;
+background-color: black;
+background-size: auto;}
+.nav-links ul li{ color: white;
+list-style: none;
+display: inline-block;
+padding: 8px 12px;
+position: relative;}
+.nav-links ul li a{ color: white;
+text-decoration: none;
+font-size: 20px;
+}
+ .nav-links ul li::after{ 
+content: "";
+width: 0%;
+height: 2px;
+background: #ED661F;
+display: block;
+margin: auto;
+transition: 0.5s;}
+.nav-links ul li:hover::after{ width: 100%;
+}
+.get{ display: flex;
+font-size: 30px;
+text-decoration: none;}
+.get li a{ color: white;}
+.button{ 
+    display: inline-block;
+    text-decoration: none;
+    /* background-color: #ED661F; */
+    cursor: pointer;
+    border: solid;
+    /* padding: 12px 34px; */
+    font-size: 30px;}
+ .button:hover{
+    border: 1px solid;
+    background-color: #ED661F;
+transition: o0.5s;}
+.page1 img{width: 800px;
+height: 350px;
+float: right;}
+.page1{ margin: 50px;
+    font-size: 30px;
+display: flex;}
+/* float: right;} */
+.button1{display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    border: solid;
+}
+.button1:hover{ background-color: #ED661F;
+border: 1px solid;}
+.logo{ font-size: 50px;
+text-decoration: none;
+color: white;}
+.page1 h1{font-family: 'Poppins', sans-serif; }
+/* <!-- body 1 --> */
+ .body1{width: 80%;
+margin: auto;
+text-align: left;
+padding-top: 100px;
+display: flex;}
+.body1 h2{ font-family: 'Poppins', sans-serif;
+cursor: pointer;}
+.body1 p2{font-size: 25px; }
+.body1 img{width: 1000px;
+height: 350px;
+float: right;}
+.body1 h2::after{ content: "";
+    background: #ED661F;
+    margin: auto;
+    transition: 0.5s;}
+.body1 h2:hover::after{ width: 100%;}   
+.body2{ text-align: center;
+width: 80%;
+margin:auto;
+padding: 100px;
+padding-top: 20px;
+font-size: 20px;
+}
+
+.body3 { 
+    display: flex;
+   margin: auto;
+}
+
+#column img{ 
+    width: 200px;
+   height: 200px;
+}
