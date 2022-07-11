@@ -2,17 +2,17 @@
 Week two project about AgrIPlus
 By DuncanLangat6515
 It is a description of my project Agriplus Website.
-Table of Content
-Description
-Installation Requirement
+<Table of Content>
+<Description>
+<Installation Requirement>
 Technology Used
 Reference
 Licence
 Authors Info
-Description
+</Description>
 This is a website that shows my portfolio/resume.It contains all my background information,some sample projects that I have worked on and the experience gained.
 
-Installation
+</Installation>
 Requirements Webpage
 
 
